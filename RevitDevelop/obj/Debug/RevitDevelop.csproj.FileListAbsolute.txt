@@ -1,0 +1,6 @@
+E:\VS2017\RevitDevelop\RevitDevelop\obj\Debug\RevitDevelop.csprojAssemblyReference.cache
+E:\VS2017\RevitDevelop\RevitDevelop\obj\Debug\RevitDevelop.csproj.CoreCompileInputs.cache
+E:\VS2017\RevitDevelop\RevitDevelop\bin\Debug\RevitDevelop.dll
+E:\VS2017\RevitDevelop\RevitDevelop\bin\Debug\RevitDevelop.pdb
+E:\VS2017\RevitDevelop\RevitDevelop\obj\Debug\RevitDevelop.dll
+E:\VS2017\RevitDevelop\RevitDevelop\obj\Debug\RevitDevelop.pdb
