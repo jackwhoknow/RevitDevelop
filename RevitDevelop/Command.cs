@@ -18,6 +18,8 @@ namespace RevitDevelop
         {
            UIApplication uIApplication= commandData.Application;
             TaskDialog.Show("我的第一个命令", "Hello Word");
+            int a = 100;
+            int b = 200;
             return Result.Succeeded;
         }
     }
