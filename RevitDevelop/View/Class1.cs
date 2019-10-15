@@ -8,5 +8,9 @@ namespace RevitDevelop.View
 {
     class Class1
     {
+        public Class1()
+        {
+
+        }
     }
 }
