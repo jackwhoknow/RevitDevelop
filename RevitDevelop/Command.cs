@@ -22,6 +22,9 @@ namespace RevitDevelop
             int b = 200;
             int c = 300;
             int d = 400;
+            int e = 500;
+            int f = 8800;
+            int g = 9800;
             return Result.Succeeded;
         }
     }
