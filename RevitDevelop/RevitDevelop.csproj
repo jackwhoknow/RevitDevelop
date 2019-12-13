@@ -102,7 +102,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
   </PropertyGroup>
- <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'D2020|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'D2020|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\D2020\</OutputPath>
     <DefineConstants>TRACE;DEBUG;ADSK_INTERNAL;V2020;</DefineConstants>
@@ -126,21 +126,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
   </PropertyGroup>
-  <ItemGroup Condition="'$(Configuration)' == 'D2017' or '$(Configuration)' == 'R2017'">
-    <Reference Include="AdWindows">
-      <HintPath>..\libs\Revit2017\AdWindows.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPI">
-      <HintPath>..\libs\Revit2017\RevitAPI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="RevitAPIUI">
-      <HintPath>..\libs\Revit2017\RevitAPIUI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-  </ItemGroup>
-   <ItemGroup Condition="'$(Configuration)' == 'D2018' or '$(Configuration)' == 'R2018'">
+  <ItemGroup Condition="'$(Configuration)' == 'D2018' or '$(Configuration)' == 'R2018'">
     <Reference Include="AdWindows">
       <HintPath>..\libs\Revit2018\AdWindows.dll</HintPath>
       <Private>False</Private>
@@ -154,7 +140,7 @@
       <Private>False</Private>
     </Reference>
   </ItemGroup>
-   <ItemGroup Condition="'$(Configuration)' == 'D2019' or '$(Configuration)' == 'R2019'">
+  <ItemGroup Condition="'$(Configuration)' == 'D2019' or '$(Configuration)' == 'R2019'">
     <Reference Include="AdWindows">
       <HintPath>..\libs\Revit2019\AdWindows.dll</HintPath>
       <Private>False</Private>
@@ -183,6 +169,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="AdWindows">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\AdWindows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -193,6 +191,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\Class1.cs" />
